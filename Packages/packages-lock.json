@@ -322,6 +322,36 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.volk.characters": {
+      "version": "git@github.com:Vo1ked/VolkCharacters.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "19adfa94d943a54da2888c2bdd62f01ddc9a28b9"
+    },
+    "com.volk.core": {
+      "version": "git@github.com:Vo1ked/VolkCore.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cbc24a5f6518ca3156b569713b1eef5e82dd7ed8"
+    },
+    "com.volk.input": {
+      "version": "git@github.com:Vo1ked/VolkInput.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "139316aa1876eb17a28ba81d4c66452809f2f851"
+    },
+    "com.volk.security": {
+      "version": "git@github.com:Vo1ked/VolkSecurity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.volk.core": "git@github.com:Vo1ked/VolkCore.git"
+      },
+      "hash": "db82d33d6ae1c6a07f148d5afd8f1da0ff034520"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
@@ -357,6 +387,14 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.modules.cloth": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
     },
     "com.unity.modules.hierarchycore": {
       "version": "1.0.0",
